@@ -38,6 +38,11 @@
         },
       };
     </script>
+    <style>
+      body{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
 
   <body>
@@ -113,11 +118,14 @@
 
        </section>
     </header>
+
     <!-- Main Part -->
      <main>
-      <!-- Main Part 1 -->
-      <section class="bg-[#f4f4f4]">
-        <div class="hero bg-base-200 min-h-screen">
+   <!--  Gray Part Start-->
+     <div  class="bg-[#f4f4f4]">
+       <section class=" w-11/12 mx-auto">
+        <!--  Main Part One -->
+        <div class="hero min-h-screen">
           <div class="hero-content flex-col-reverse  lg:flex-row-reverse">
             <img class="w-[335px] h-[220px] sm:w-[570px] sm:h-[545px]" src="./assets/Rectangle.png" alt="">
             <div class="flex flex-col">
@@ -148,7 +156,90 @@
             </div>
           </div>
         </div>
+        <!-- Main Part Tow -->
+          <div class="flex flex-col items-center justify-center ">
+            <button class="btn bg-white rounded-full px-7 mb-4  "><span><i class="fa-solid fa-arrow-right"></i></span>How we process</button>
+            <h2 class="font-extrabold text-center text-4xl mb-6 ">Our Works Process</h2>
+            <p class=" text-center text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 mb-24 mt-10 ">
+              <div class="bg-[#E7C1D3] p-6 rounded-xl" > 
+                <img src="./assets/concept.png" alt="">
+                <h3 class="font-bold text-lg mb-2">Concept</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+          
+              <div class="bg-[#EFDA6E] p-6 rounded-xl" > 
+                <img src="./assets/flow-chart.png" alt="">
+                <h3 class="font-bold text-lg mb-2">Design Process</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+          
+              <div class="bg-[#A4DAC3] p-6 rounded-xl" > 
+                <img src="./assets/vision.png" alt="">
+                <h3 class="font-bold text-lg mb-2">Supervision</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+          
+              <div class="bg-[#77AAEA] p-6 rounded-xl" > 
+                <img src="./assets/budget-planning.png" alt="">
+                <h3 class="font-bold text-lg mb-2">Budget Planning</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+          
+             </div>
+          </div>
       </section>
+     </div>
+     <!-- Challenge Part Start -->
+      <!-- Challenge Part End -->
+
+      <!-- Form Part Start -->
+       <section  class="bg-[url('./assets/bg.jpg')] bg-cover ">
+        <div class="w-11/12 mx-auto">
+
+          <div class="flex flex-col justify-center items-center">
+            <button class="btn bg-[#ABEF5F33] rounded-2xl sm:w-2/12 mb-4 mt-10 font-bold
+            "><span><i class="fa-solid fa-arrow-right"></i></span><a href="#">Lets Connect</a></button>
+            <h2 class="text-4xl font-extrabold mb-6 text-center">Let’s Discuss Next Project</h2>
+            <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          
+          <div class="flex flex-col items-center ">
+            <div class=" flex flex-col sm:flex-row mb-5 mt-5 gap-5 sm:gap-10 ">
+              <input type="text" placeholder="First Name*" class="input input-bordered rounded-3xl pr-32  w-full max-w-xs" />
+              <input type="text" placeholder="Last Name*" class="input input-bordered rounded-3xl pr-32  w-full max-w-xs" /> 
+              </div>
+              <div class="flex flex-col sm:flex-row gap-5 sm:gap-10 mb-5">
+                <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-3xl pr-32  w-full max-w-xs" /> 
+              <input type="text" placeholder="Email Number*" class="input input-bordered rounded-3xl pr-32  w-full max-w-xs" /> 
+              </div>
+              <div><textarea class="textarea textarea-bordered pr-40 rounded-xl sm:pr-[500px] mb-5" placeholder="Write Your Massage here"></textarea></div>
+              
+              <button class="  btn bg-primary font-bold rounded-3xl mb-24 w-11/12 sm:w-7/12 mx-auto text-lg">Send Mail <span><i class="fa-solid fa-arrow-trend-up bg-black p-2 rounded-full text-white"></i></span></button>
+          </div>
+
+       </section>
+
      </main>
+
+     <footer class="bg-black">
+      <section class="w-11/12 mx-auto ">
+        <div class="flex flex-col justify-center ">
+          <h1 class="text-white font-bold text-lg  text-center mt-12 mb-4"><span><i class="fa-solid fa-arrow-right bg-primary p-2 -rotate-45 mr-2 rounded-full"></i></span>Rinterio</h1>
+          <p class="text-center text-gray-300 mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+          <ul class="text-white flex flex-col sm:flex-row justify-between sm:w-[776px] mx-auto text-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="flex items-center justify-center mt-10 mb-10"  >
+            <button class="bg-primary btn  sm:w-2/12 rounded-full text-1xl">Book Consult <span><i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black p-2 rounded-full"></i></span></button>
+          </div>
+        </div>
+      </section>
+     </footer>
   </body>
 </html>
